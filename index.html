@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sophie Photographies - Vos photos, ma passion</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <nav class="main-navbar">
+        <a href="#titre"><img src="assets/ressources/logo.png" alt="Sophie Photographies" class="logo"/></a>
+        <ul class="lien">
+            <li><a href="#information">Qui suis-je?</a></li>
+            <li><a href="#creation">Mes créations</a></li>
+            <li><a href="#tarifs">Tarifs</a></li>
+            <li><a href="#contact">Contactez-moi</a></li>
+        </ul>
+    </nav>
+    <header id="titre">
+        <div class="grostitre">
+            <h1>Sophie Photographies</h1>
+            <p>Vos photos, ma passion.</p>
+        </div>
+    </header>
+    <section id="information">
+        <div class="container">
+            <span class="container2"><h2>Qui suis-je?</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan faucibus risus. Cras ac purus
+                metus.
+                Maecenas sit amet iaculis nulla. Ut ornare arcu non lectus sodales suscipit ut eget turpis.
+                <br />
+                <br />
+                Nulla volutpat tellus nec mi sodales condimentum. Nam vulputate, dolor et facilisis maximus, leo odio
+                mollis
+                odio, ac efficitur nibh magna sit amet orci. Vestibulum nunc nisi, pulvinar in blandit sit amet,
+                vehicula id
+                quam. Nam est nisi, imperdiet vitae turpis eget, imperdiet molestie enim. Suspendisse sit amet
+                sollicitudin
+                nibh. Nullam mattis metus sed mattis porta. Aenean at accumsan sem, ut rhoncus augue.
+                <br />
+                <br />
+                Duis egestas rhoncus erat, a vestibulum nunc accumsan eu. Vestibulum a lacus et felis vehicula
+                elementum.
+                Aliquam tempus venenatis purus nec auctor. In rutrum ut neque sit amet faucibus. Phasellus ut euismod
+                tortor,
+                sit amet imperdiet nunc. Aenean fringilla nisi ac nibh imperdiet faucibus. Ut cursus laoreet
+                scelerisque.
+                <br />
+                <br />
+                <p class="soso">- Sophie</p>
+            </p>
+            </span>
+            <img src="assets/ressources/sophie.jpg" alt="photosophie" class="imagesoso">
+        </div>
+    </section>
+    <section id="creation">
+        <h2>Mes créations</h2>
+        <ul class="creations-container">
+            <li class="picture-container"><img src="assets/ressources/picture1.jpg"></li>
+            <li class="picture-container"><img src="assets/ressources/picture2.jpg"></li>
+            <li class="picture-container"><img src="assets/ressources/picture3.jpg"></li>
+            <li class="picture-container"><img src="assets/ressources/picture5.jpg"></li>
+            <li class="picture-container"><img src="assets/ressources/picture7.jpg"></li>
+            <li class="picture-container"><img src="assets/ressources/picture8.jpg"></li>
+        </ul>
+    </section>
+    <section id="tarifs">
+        <h2>Tarifs</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Prestation</th>
+                    <th>Description</th>
+                    <th>Durée</th>
+                    <th>Prix</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Portrait simple</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                    <td>X min.</td>
+                    <td>X € TTC</td>
+                </tr>
+                <tr>
+                    <td>Portrait professionnel (3 prises)</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                    <td>X min.</td>
+                    <td>X € TTC</td>
+                </tr>
+                <tr>
+                    <td>Photo de groupe</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                    <td>X min.</td>
+                    <td>X € TTC</td>
+                </tr>
+                <tr>
+                    <td>Mariage</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                    <td>X min.</td>
+                    <td>X € TTC</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="contact">
+        <div class="formulaire">
+        <h2>Contactez-moi</h2>
+        <form autocomplete="on" class="container3">
+            <label for="firstname" class="firstname">Prénom</label>
+            <input type="text" id="firstname" name="prénom" required />
+
+            <label for="lastname"class="firstname">Nom</label>
+            <input type="text" id="lastname" name="nom" required />
+
+            <label for="email"class="firstname">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message"class="firstname">Message:</label>
+            <textarea id="message" name="message" required></textarea><br />
+
+            <input type="checkbox" id="case" name="case" required />
+            <label for="case" class="doc"> 
+                J'accepte que mes données ci-dessus soient traitées à des fins de prises de contact commerciales.
+            </label>
+            <button>Envoyer</button>
+        </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Sophie Photographies 2022</p>
+    </footer>
+</body>
+
+</html>

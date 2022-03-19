@@ -1,0 +1,230 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+/* barre de nav */
+.main-navbar{ 
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  margin: 0px;
+  height: 64px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  animation: apparition 5s ease-out;
+  opacity: 1;
+}
+.logo{
+    height: 40px;
+    margin-left: 15px;
+}
+.lien{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+.lien a{
+    text-decoration: none;
+    font-family: 'Dongle', sans-serif;
+    font-size: 27px;
+    text-align: center;
+    color:black;
+    transition-property:border-radius;
+    transition-duration: 2s;
+    border-radius: 15px;
+    padding: 6px;
+    margin-right: 10px;
+  }
+
+.lien  a:hover,
+.lien  a:focus {
+    color: white;
+    background: black;
+    border-radius: 60px;
+  }
+@keyframes apparition{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+/* titre */
+
+header {
+    display: flex;
+    background-image: url("../ressources/top.jpg");
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    
+} 
+.grostitre{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    animation: descend 2s ease-out;
+    font-family: 'Lobster', cursive;
+}
+@keyframes descend{
+    from{
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* info*/
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container2{
+    background-color: white;
+    flex: 70vh;
+    padding: 20px 30px;
+    text-align: justify;
+}
+.imagesoso{
+    width: 1px;
+    flex: 70vh;
+}
+.soso{
+    text-align: right;
+}
+.container2 h2{
+    margin-top: 0px;
+}
+
+/* galerie photo*/
+
+.creations-container{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    flex-wrap: wrap;
+    margin: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.picture-container{
+    flex-basis: 350px;
+}
+.picture-container img{
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#creation{
+    background-color: black;
+}
+#creation h2{
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+/* tarif */
+
+#tarifs h2{
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+#tarifs{
+    background-color: white;
+    padding: 20px 30px 50px 20px;
+}
+.table{
+    margin: auto;
+    border-collapse: collapse;
+  }
+.table th,
+.table td {
+      border: 1px solid #151515;
+      padding: 20px;
+  }
+  
+.table th {
+      background-color: #151515;
+      color: white;
+  }
+
+/*contact*/
+.formulaire{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#contact{
+    background-color: black;
+}
+.container3 textarea{
+    resize: none;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.container3 #case{
+    align-self: flex-start;
+    margin-left: 0px;
+}
+.container3 input{
+    padding: 10px 3px 10px 3px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.firstname{
+    padding-bottom: 10px;
+    color: white;
+}
+.formulaire h2{
+    color: white;
+}
+.doc{
+    color: white;
+    align-self: center;
+
+}
+button{
+    margin: 50px 0px 50px 0px;
+    align-self: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: white;
+}
+footer {
+    background-color: #3a3a3a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
